@@ -1,6 +1,4 @@
-// ------------------------------
 // SIDEBAR LINKS
-// ------------------------------
 
 export const sidebarLinks = [
   {
@@ -41,9 +39,7 @@ export const sidebarLinks = [
   },
 ];
 
-// ------------------------------
 // EARNINGS CARDS
-// ------------------------------
 
 export const earningCards = [
   {
@@ -79,9 +75,7 @@ export const earningCards = [
   },
 ];
 
-// ------------------------------
 // REVENUE UPDATES
-// ------------------------------
 
 export const revenueData = {
   budget: "$93,438",
@@ -331,4 +325,73 @@ export const themeColors = [
   "#43A047",
   "#FB8C00",
   "#00ACC1",
+];
+
+// ------------------------------
+// USER PROFILE (For Navbar Dropdown)
+// ------------------------------
+export const userProfileData = {
+  name: "Michael Roberts",
+  email: "michael@shoppy.com",
+  role: "Administrator",
+  avatar: "https://i.pravatar.cc/150?img=3", 
+};
+
+// ------------------------------
+// CHAT DATA (For Navbar Dropdown)
+// ------------------------------
+export const chatData = [
+  {
+    image: "https://i.pravatar.cc/150?img=12",
+    message: "Roman Joined the Team!",
+    desc: "Congratulate him",
+    time: "9:08 AM",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=5",
+    message: "New message received",
+    desc: "Salma sent you new message",
+    time: "11:56 AM",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=3",
+    message: "New Payment received",
+    desc: "Check your earnings",
+    time: "4:39 AM",
+  },
+];
+
+// ------------------------------
+// CART DATA (For Navbar Dropdown)
+// ------------------------------
+export const cartData = [
+  {
+    image: "https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg",
+    name: "Butterscotch Ice Cream",
+    category: "Milk Product",
+    price: "$250",
+  },
+  {
+    image: "https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg",
+    name: "Supreme Fresh Tomato",
+    category: "Vegetable Item",
+    price: "$450",
+  },
+  {
+    image: "https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg",
+    name: "Red Color Candy",
+    category: "Food Item",
+    price: "$190",
+  },
+];
+
+// ------------------------------
+// SPARKLINE CHARTS (For Dashboard Cards)
+// ------------------------------
+export const sparklineAreaData = [
+  { x: 1, yval: 2 },
+  { x: 2, yval: 6 },
+  { x: 3, yval: 8 },
+  { x: 4, yval: 5 },
+  { x: 5, yval: 10 },
 ];
