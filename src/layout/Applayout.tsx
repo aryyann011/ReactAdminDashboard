@@ -1,8 +1,11 @@
 import Navbar from "@/components/Navbar"
 import Sidebar from "@/components/Sidebar"
 import { Outlet } from "react-router-dom" 
+import { useStateContext } from "@/context/contextProvider"
 
 const AppLayout = () => {
+
+  const {activeMenu} = useStateContext();
   return (
     // 1. 'overflow-hidden' stops the whole window from scrolling
     <div className="flex h-screen w-screen overflow-hidden bg-slate-50 dark:bg-black">
