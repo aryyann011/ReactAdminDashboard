@@ -119,20 +119,20 @@ export const chatData = [
 
 export const cartData = [
   {
-    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=100&q=80",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=200&h=200",
     name: "Butterscotch Ice Cream",
     category: "Milk Product",
     price: "$250",
   },
   {
-    image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=100&q=80",
+    image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=200&h=200",
     name: "Supreme Fresh Tomato",
     category: "Vegetable Item",
     price: "$450",
   },
   {
-    image: "https://images.unsplash.com/photo-1582039325967-68b4f9804579?auto=format&fit=crop&w=100&q=80",
-    name: "Red Color Candy",
+    image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=200&h=200",
+    name: "Cauliflower",
     category: "Food Item",
     price: "$190",
   },
