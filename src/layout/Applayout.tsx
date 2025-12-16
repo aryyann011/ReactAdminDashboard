@@ -3,6 +3,8 @@ import Sidebar from "@/components/Sidebar"
 import { Outlet } from "react-router-dom" 
 import { useStateContext } from "@/context/contextProvider"
 import Cart from "@/components/Cart"
+import Chat from "@/components/chat"
+
 const AppLayout = () => {
 
   const { activeMenu, isClicked, handleClick } = useStateContext();
@@ -21,6 +23,7 @@ const AppLayout = () => {
           />
         )}
         {isClicked.cart && <Cart />}
+        {isClicked.chat && <Chat/>}
         <main className="h-screen w-full flex-1 overflow-y-auto p-6">
             <Outlet />
         </main>
